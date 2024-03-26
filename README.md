@@ -95,7 +95,7 @@ npm install
 
 ## Implementações técnicas
 
-Para executar localmente os testes é ter o MySQL instalado ou subir um container Docker com o MySQL rodando, em seguida escrever o seguinte comando no seu terminal:
+Para executar localmente os testes é necessário ter o MySQL instalado ou subir um container Docker com o MySQL, em seguida escrever o seguinte comando no seu terminal:
 ```sh
 MYSQL_USER=<SEU_NOME_DE_PESSOA_USUARIA> MYSQL_PASSWORD=<SUA SENHA> HOSTNAME=<NOME_DO_HOST> npm test
 ```
